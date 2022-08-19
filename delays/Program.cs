@@ -17,7 +17,10 @@ namespace delays
 
     class Work
     {
-        private DateTime _dateTime = new DateTime (2022, 08, 20);
+        private int _year = 2022;
+        private int _month = 8;
+        private int _day = 20;
+        private DateTime _dateTime = new DateTime (_year, _month, _day);
         private List<Stew> _stews = new List<Stew> ();
 
         public Work ()
